@@ -1,0 +1,142 @@
+{
+ "cartpole": {
+  "LQR (nominal model)": {
+   "real_success": 0.673,
+   "real_return": -2.384136078453244,
+   "nominal_success": 1.0,
+   "nominal_return": -0.0020193036527214043
+  },
+  "ES, nominal sim": {
+   "real_success": 0.631,
+   "real_return": -2.711446486977142,
+   "nominal_success": 1.0,
+   "nominal_return": -0.0020090702045634373
+  },
+  "ES, domain randomisation": {
+   "real_success": 0.838,
+   "real_return": -0.9378961847193433,
+   "nominal_success": 1.0,
+   "nominal_return": -0.0021630056694904613
+  },
+  "ES, automatic DR": {
+   "real_success": 0.966,
+   "real_return": -0.19170756515377343,
+   "nominal_success": 1.0,
+   "nominal_return": -0.008355722450655648
+  },
+  "sysid": {
+   "plants": 30,
+   "dr": 0.13416666666666668,
+   "dr_sysid": 0.9700000000000001,
+   "adr": 0.9566666666666668,
+   "delay_exact": 0.9333333333333333
+  },
+  "adr_ranges": {
+   "m_cart": [
+    0.504,
+    3.1279999999999997
+   ],
+   "m_pole": [
+    0.02,
+    1.0
+   ],
+   "half_len": [
+    0.404,
+    2.0
+   ],
+   "damping": [
+    0.0,
+    1.0
+   ],
+   "gain": [
+    0.592,
+    2.0
+   ],
+   "delay": [
+    0.0,
+    5.0
+   ],
+   "noise": [
+    0.0,
+    0.05
+   ],
+   "push": [
+    0.0,
+    4.84
+   ]
+  },
+  "adr_coverage": 0.974
+ },
+ "quadrotor": {
+  "LQR (nominal model)": {
+   "real_success": 0.484,
+   "real_return": -4.937519746297149,
+   "nominal_success": 1.0,
+   "nominal_return": -0.029009543374798524
+  },
+  "ES, nominal sim": {
+   "real_success": 0.424,
+   "real_return": -5.489995476406821,
+   "nominal_success": 1.0,
+   "nominal_return": -0.025364849549923015
+  },
+  "ES, domain randomisation": {
+   "real_success": 0.545,
+   "real_return": -4.138048584935614,
+   "nominal_success": 1.0,
+   "nominal_return": -0.026522502776806532
+  },
+  "ES, automatic DR": {
+   "real_success": 0.742,
+   "real_return": -3.202015815222512,
+   "nominal_success": 1.0,
+   "nominal_return": -0.04299023400770402
+  },
+  "sysid": {
+   "plants": 30,
+   "dr": 0.0,
+   "dr_sysid": 0.6675,
+   "adr": 0.3375,
+   "delay_exact": 1.0
+  },
+  "adr_ranges": {
+   "mass": [
+    0.4,
+    2.04
+   ],
+   "inertia": [
+    0.01,
+    0.05
+   ],
+   "arm": [
+    0.05,
+    0.262
+   ],
+   "gain_l": [
+    0.6000000000000002,
+    1.5
+   ],
+   "gain_r": [
+    0.6000000000000002,
+    1.4800000000000004
+   ],
+   "tau": [
+    0.03,
+    0.148
+   ],
+   "delay": [
+    0.0,
+    2.0
+   ],
+   "noise": [
+    0.0,
+    0.04000000000000001
+   ],
+   "wind": [
+    0.0,
+    3.6999999999999997
+   ]
+  },
+  "adr_coverage": 0.911014911014911
+ }
+}
