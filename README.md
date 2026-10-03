@@ -9,7 +9,7 @@ How do you train a robot controller in simulation so that it still works on the 
 | **Domain randomisation (DR)** | Policy search over a hand-chosen range of plausible plants |
 | **Automatic DR (ADR)** | Start from the nominal plant and widen each parameter's range only while the policy keeps succeeding at the boundary ([OpenAI et al., 2019](https://arxiv.org/abs/1910.07113)) |
 | **System identification + fine-tuning** | Run a few safe test episodes on the real plant, fit the simulator's parameters (including the integer actuator delay) to the logs, then fine-tune in a narrow range around the estimate |
-
+ 
 The "reality gap" is modelled with the usual suspects:
 - masses and geometry
 - actuator gain, **delay** and rotor **lag**
